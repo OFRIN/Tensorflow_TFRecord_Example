@@ -10,7 +10,7 @@
 - Weakly Augmentation is flip and random crop.
 - Strongly Augmentation is RandAugment.
 
-| Preprocessing | tf.data API (ms/image) | Threading API (ms/image) |
+| Preprocessing | tf.data API (ms/64 images) | Threading API (ms/64 images) |
 | ------------- | ---------------- | ------------------ |
 | No Augmentation | 20~30ms | 20~30ms |
 | Weakly Augmentation | 30~40ms | 40~50ms|
